@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8FC78A7F-C334-4579-9DB4-0687629F2D2C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain.Calendar", "src\Domain.Calendar\Domain.Calendar.xproj", "{89B15BBC-4D60-4029-983B-990F55D19370}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EF.Repository.Calendar", "src\EF.Repository.Calendar\EF.Repository.Calendar.xproj", "{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Repository.Calendar", "src\Repository.Calendar\Repository.Calendar.xproj", "{79952364-4047-4928-93B4-1842D4DA5DFB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test.EF.Repository", "src\Test.EF.Repository\Test.EF.Repository.xproj", "{398B94EE-2A17-4681-B840-5D1E04E57F48}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApi.Calendar", "src\WebApi.Calendar\WebApi.Calendar.xproj", "{14BC0834-6641-4F7B-8BBA-56F4BBB29F51}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IOC.Repository.Calendar", "src\IOC.Repository.Calendar\IOC.Repository.Calendar.xproj", "{D843F260-2A8D-4C22-9528-900858149533}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Infra.Calendar", "src\Infra.Calendar\Infra.Calendar.xproj", "{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Service.Calendar.Impl", "src\Service.Calendar.Impl\Service.Calendar.Impl.xproj", "{24657A8D-3305-4A97-9B15-EA383C227CB3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Service.Calendar", "src\Service.Calendar\Service.Calendar.xproj", "{626B6801-17B4-40DE-804E-272BC1662007}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test.Service", "src\Test.Service\Test.Service.xproj", "{D514717D-14F5-4AD5-A6BE-B6491569F0AB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IOC.Service.Calendar", "src\IOC.Service.Calendar\IOC.Service.Calendar.xproj", "{928919E0-FDDD-4DDD-B833-FD82BD23574C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IOC.Infra.Calendar", "src\IOC.Infra.Calendar\IOC.Infra.Calendar.xproj", "{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B15BBC-4D60-4029-983B-990F55D19370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B15BBC-4D60-4029-983B-990F55D19370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B15BBC-4D60-4029-983B-990F55D19370}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{89B15BBC-4D60-4029-983B-990F55D19370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B15BBC-4D60-4029-983B-990F55D19370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79952364-4047-4928-93B4-1842D4DA5DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79952364-4047-4928-93B4-1842D4DA5DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79952364-4047-4928-93B4-1842D4DA5DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79952364-4047-4928-93B4-1842D4DA5DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398B94EE-2A17-4681-B840-5D1E04E57F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398B94EE-2A17-4681-B840-5D1E04E57F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398B94EE-2A17-4681-B840-5D1E04E57F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398B94EE-2A17-4681-B840-5D1E04E57F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BC0834-6641-4F7B-8BBA-56F4BBB29F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BC0834-6641-4F7B-8BBA-56F4BBB29F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BC0834-6641-4F7B-8BBA-56F4BBB29F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BC0834-6641-4F7B-8BBA-56F4BBB29F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D843F260-2A8D-4C22-9528-900858149533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D843F260-2A8D-4C22-9528-900858149533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D843F260-2A8D-4C22-9528-900858149533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D843F260-2A8D-4C22-9528-900858149533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24657A8D-3305-4A97-9B15-EA383C227CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24657A8D-3305-4A97-9B15-EA383C227CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24657A8D-3305-4A97-9B15-EA383C227CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24657A8D-3305-4A97-9B15-EA383C227CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626B6801-17B4-40DE-804E-272BC1662007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626B6801-17B4-40DE-804E-272BC1662007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626B6801-17B4-40DE-804E-272BC1662007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626B6801-17B4-40DE-804E-272BC1662007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D514717D-14F5-4AD5-A6BE-B6491569F0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D514717D-14F5-4AD5-A6BE-B6491569F0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D514717D-14F5-4AD5-A6BE-B6491569F0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D514717D-14F5-4AD5-A6BE-B6491569F0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928919E0-FDDD-4DDD-B833-FD82BD23574C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928919E0-FDDD-4DDD-B833-FD82BD23574C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928919E0-FDDD-4DDD-B833-FD82BD23574C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928919E0-FDDD-4DDD-B833-FD82BD23574C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89B15BBC-4D60-4029-983B-990F55D19370} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{2D923A4A-688B-4D49-A23A-3B0EAF94EFFC} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{79952364-4047-4928-93B4-1842D4DA5DFB} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{398B94EE-2A17-4681-B840-5D1E04E57F48} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{14BC0834-6641-4F7B-8BBA-56F4BBB29F51} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{D843F260-2A8D-4C22-9528-900858149533} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{C88B942D-F4F1-49CE-B1D0-F4A5B5D9CBCB} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{24657A8D-3305-4A97-9B15-EA383C227CB3} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{626B6801-17B4-40DE-804E-272BC1662007} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{D514717D-14F5-4AD5-A6BE-B6491569F0AB} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{928919E0-FDDD-4DDD-B833-FD82BD23574C} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+		{DAF463FE-B2F1-40D6-9268-7BD9CEAC6D0D} = {F0BEACBE-CEAE-4952-8BBE-B94BAD66F77D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://meliehl.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Domain.Calendar\\Domain.Calendar.xproj
+		SccProjectTopLevelParentUniqueName1 = Calendar.sln
+		SccProjectName1 = src/Domain.Calendar
+		SccLocalPath1 = src\\Domain.Calendar
+		SccProjectUniqueName2 = src\\EF.Repository.Calendar\\EF.Repository.Calendar.xproj
+		SccProjectTopLevelParentUniqueName2 = Calendar.sln
+		SccProjectName2 = src/EF.Repository.Calendar
+		SccLocalPath2 = src\\EF.Repository.Calendar
+		SccProjectUniqueName3 = src\\Repository.Calendar\\Repository.Calendar.xproj
+		SccProjectTopLevelParentUniqueName3 = Calendar.sln
+		SccProjectName3 = src/Repository.Calendar
+		SccLocalPath3 = src\\Repository.Calendar
+		SccProjectUniqueName4 = src\\Test.EF.Repository\\Test.EF.Repository.xproj
+		SccProjectTopLevelParentUniqueName4 = Calendar.sln
+		SccProjectName4 = src/Test.EF.Repository
+		SccLocalPath4 = src\\Test.EF.Repository
+		SccProjectUniqueName5 = src\\WebApi.Calendar\\WebApi.Calendar.xproj
+		SccProjectTopLevelParentUniqueName5 = Calendar.sln
+		SccProjectName5 = src/WebApi.Calendar
+		SccLocalPath5 = src\\WebApi.Calendar
+		SccProjectUniqueName6 = src\\IOC.Repository.Calendar\\IOC.Repository.Calendar.xproj
+		SccProjectTopLevelParentUniqueName6 = Calendar.sln
+		SccProjectName6 = src/IOC.Repository.Calendar
+		SccLocalPath6 = src\\IOC.Repository.Calendar
+		SccProjectUniqueName7 = src\\Infra.Calendar\\Infra.Calendar.xproj
+		SccProjectTopLevelParentUniqueName7 = Calendar.sln
+		SccProjectName7 = src/Infra.Calendar
+		SccLocalPath7 = src\\Infra.Calendar
+		SccProjectUniqueName8 = src\\Service.Calendar.Impl\\Service.Calendar.Impl.xproj
+		SccProjectTopLevelParentUniqueName8 = Calendar.sln
+		SccProjectName8 = src/Service.Calendar.Impl
+		SccLocalPath8 = src\\Service.Calendar.Impl
+		SccProjectUniqueName9 = src\\Service.Calendar\\Service.Calendar.xproj
+		SccProjectTopLevelParentUniqueName9 = Calendar.sln
+		SccProjectName9 = src/Service.Calendar
+		SccLocalPath9 = src\\Service.Calendar
+		SccProjectUniqueName10 = src\\Test.Service\\Test.Service.xproj
+		SccProjectTopLevelParentUniqueName10 = Calendar.sln
+		SccProjectName10 = src/Test.Service
+		SccLocalPath10 = src\\Test.Service
+		SccProjectUniqueName11 = src\\IOC.Service.Calendar\\IOC.Service.Calendar.xproj
+		SccProjectTopLevelParentUniqueName11 = Calendar.sln
+		SccProjectName11 = src/IOC.Service.Calendar
+		SccLocalPath11 = src\\IOC.Service.Calendar
+		SccProjectUniqueName12 = src\\IOC.Infra.Calendar\\IOC.Infra.Calendar.xproj
+		SccProjectTopLevelParentUniqueName12 = Calendar.sln
+		SccProjectName12 = src/IOC.Infra.Calendar
+		SccLocalPath12 = src\\IOC.Infra.Calendar
+	EndGlobalSection
+EndGlobal
